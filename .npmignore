@@ -1,0 +1,10 @@
+.github
+.editorconfig
+.huskyrc
+.lintstagedrc
+.prettierrc
+.travis.yml
+src
+*.json
+*.code-*
+*.lock

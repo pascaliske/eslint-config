@@ -1,0 +1,47 @@
+{
+  "name": "@pascaliske/eslint-config",
+  "description": "Shared .eslintrc file.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Pascal Iske",
+    "email": "info@pascal-iske.de",
+    "url": "https://pascal-iske.de"
+  },
+  "repository": {
+    "url": "https://github.com/pascaliske/tsconfig.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/pascaliske/tsconfig/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintrc",
+    "eslintconfig",
+    "config",
+    "configuration"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "format": "prettier --write \"src/*.ts\"",
+    "changelog": "standard-changelog"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@pascaliske/tsconfig": "^1.0.2",
+    "husky": "^2.5.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2",
+    "standard-changelog": "^2.0.11",
+    "typescript": "^3.5.2"
+  }
+}
