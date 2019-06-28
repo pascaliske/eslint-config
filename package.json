@@ -37,8 +37,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
-    "@pascaliske/tsconfig": "^1.0.2",
-    "husky": "^2.5.0",
+    "@pascaliske/tsconfig": "^1.0.3",
+    "husky": "^2.7.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
     "standard-changelog": "^2.0.11",
