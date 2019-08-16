@@ -1,4 +1,4 @@
-# Shared [ESLint config](src/index.ts)
+# Shared [ESLint config](src/rules.ts)
 
 [![Build Status](https://travis-ci.com/pascaliske/eslint-config.svg?branch=master)](https://travis-ci.com/pascaliske/eslint-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/eslint-config)](https://dependabot.com)
 
