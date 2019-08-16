@@ -16,7 +16,14 @@ $ yarn add @pascaliske/eslint-config
 
 ```json
 {
-  "extends": "@pascaliske/eslint-config"
+  "extends": "@pascaliske/eslint-config",
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true
+  }
 }
 ```
 
