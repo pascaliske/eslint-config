@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.3.0",
-    "husky": "^3.0.7",
+    "husky": "^3.0.8",
     "lint-staged": "^9.4.1",
     "prettier": "^1.18.2",
     "standard-changelog": "^2.0.13",
