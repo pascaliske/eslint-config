@@ -36,7 +36,7 @@
     "changelog": "standard-changelog"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^2.26.0",
+    "@typescript-eslint/parser": "^2.27.0",
     "eslint-config-prettier": "^6.10.1"
   },
   "peerDependencies": {
