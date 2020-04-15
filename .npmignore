@@ -2,8 +2,8 @@
 .editorconfig
 .huskyrc
 .lintstagedrc
-.prettierrc
 .travis.yml
+.prettierignore
 src
 *.json
 *.code-*
