@@ -26,4 +26,7 @@ export default () => ({
         }),
         terser(),
     ],
+    watch: {
+        clearScreen: false,
+    },
 })
