@@ -1,5 +1,6 @@
 .dependabot
 .github
+.rpt2_cache
 .editorconfig
 .envrc
 .huskyrc

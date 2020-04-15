@@ -1,12 +1,9 @@
 {
   "extends": "@pascaliske/tsconfig",
   "compilerOptions": {
-    "module": "commonjs",
-    "outDir": "dist",
+    "declaration": false,
     "sourceMap": false,
-    "declaration": false
+    "lib": ["esnext"]
   },
-  "include": [
-    "src/index.ts"
-  ]
+  "include": ["src/index.ts"]
 }

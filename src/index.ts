@@ -1,6 +1,6 @@
 import rules from './rules'
 
-export = {
+export default {
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint'],
     extends: [
