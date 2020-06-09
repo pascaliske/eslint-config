@@ -7,13 +7,9 @@
   "settings": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "[json]": {
-      "editor.formatOnSave": false,
-      "editor.formatOnType": false
-    },
-    "[jsonc]": {
-      "editor.formatOnSave": false,
-      "editor.formatOnType": false
+    "eslint.run": "onType",
+    "eslint.options": {
+      "configFile": "dist/index.js"
     }
   }
 }

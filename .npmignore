@@ -1,10 +1,15 @@
+.dependabot
 .github
+.rpt2_cache
 .editorconfig
+.envrc
 .huskyrc
 .lintstagedrc
-.prettierrc
-.travis.yml
+.prettierignore
 src
+*.ts
 *.json
 *.code-*
 *.lock
+*.yml
+*.tgz
