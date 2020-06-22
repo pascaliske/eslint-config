@@ -47,7 +47,7 @@
     "eslint": "^6.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
+    "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^8.3.4",
     "@pascaliske/prettier-config": "^1.0.2",
     "@pascaliske/tsconfig": "^1.0.4",
