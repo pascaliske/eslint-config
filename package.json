@@ -64,6 +64,6 @@
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "standard-changelog": "^2.0.24",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   }
 }
