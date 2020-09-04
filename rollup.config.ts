@@ -3,12 +3,13 @@ import typescript from 'rollup-plugin-typescript2'
 import { terser } from 'rollup-plugin-terser'
 import { main } from './package.json'
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default () => ({
     input: 'src/index.ts',
     output: [
         {
             format: 'cjs',
+            exports: 'default',
             file: main,
         },
     ],
