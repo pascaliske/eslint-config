@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/pascaliske/eslint-config/compare/v1.1.0...v1.1.1) (2020-10-11)
+
+
+### Bug Fixes
+
+* **rules:** allow spaces before anonymous and async arrow function parens ([2b2139e](https://github.com/pascaliske/eslint-config/commit/2b2139e2c74ca68e35d733d911ec2a9edc7e2901))
+
+
+
 # [1.1.0](https://github.com/pascaliske/eslint-config/compare/v1.0.0...v1.1.0) (2020-10-11)
 
 
