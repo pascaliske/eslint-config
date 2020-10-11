@@ -222,7 +222,14 @@ export const rules: Record<string, Options> = {
     quotes: [Severity.Error, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     semi: [Severity.Error, 'never', { beforeStatementContinuationChars: 'always' }],
     'space-before-blocks': Severity.Error,
-    'space-before-function-paren': [Severity.Error, 'never'],
+    'space-before-function-paren': [
+        Severity.Error,
+        {
+            named: 'never',
+            anonymous: 'always',
+            asyncArrow: 'always',
+        },
+    ],
     'space-in-parens': [Severity.Error, 'never'],
     'template-tag-spacing': Severity.Error,
 
