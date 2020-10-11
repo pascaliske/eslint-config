@@ -253,4 +253,72 @@ export const rules: Record<string, Options> = {
     'rest-spread-spacing': Severity.Error,
     'symbol-description': Severity.Error,
     'template-curly-spacing': Severity.Error,
+
+    /**
+     * TypeScript Specifics
+     * @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
+     */
+    '@typescript-eslint/adjacent-overload-signatures': Severity.Error,
+    '@typescript-eslint/array-type': Severity.Error,
+    '@typescript-eslint/await-thenable': Severity.Error,
+    '@typescript-eslint/ban-ts-comment': Severity.Error,
+    '@typescript-eslint/ban-tslint-comment': Severity.Error,
+    '@typescript-eslint/consistent-type-assertions': Severity.Error,
+    '@typescript-eslint/explicit-function-return-type': [
+        Severity.Warning,
+        {
+            allowExpressions: true,
+        },
+    ],
+    '@typescript-eslint/explicit-member-accessibility': Severity.Error,
+    '@typescript-eslint/explicit-module-boundary-types': Severity.Off,
+    '@typescript-eslint/member-ordering': [
+        Severity.Error,
+        {
+            default: [
+                // index signature
+                'signature',
+
+                // fields
+                'static-field',
+                'instance-field',
+                'abstract-field',
+
+                // constructors
+                'constructor',
+
+                // methods
+                'static-method',
+                'instance-method',
+                'abstract-method',
+            ],
+        },
+    ],
+    '@typescript-eslint/method-signature-style': Severity.Error,
+    '@typescript-eslint/no-duplicate-imports': Severity.Error,
+    '@typescript-eslint/no-empty-interface': Severity.Warning,
+    '@typescript-eslint/no-explicit-any': Severity.Warning,
+    '@typescript-eslint/no-extra-non-null-assertion': Severity.Error,
+    '@typescript-eslint/no-inferrable-types': Severity.Off,
+    '@typescript-eslint/no-misused-new': Severity.Error,
+    '@typescript-eslint/no-misused-promises': Severity.Error,
+    '@typescript-eslint/no-parameter-properties': Severity.Off,
+    '@typescript-eslint/no-require-imports': Severity.Error,
+    '@typescript-eslint/no-this-alias': Severity.Error,
+    '@typescript-eslint/no-throw-literal': Severity.Error,
+    '@typescript-eslint/no-unnecessary-type-arguments': Severity.Error,
+    '@typescript-eslint/no-unnecessary-type-assertion': Severity.Error,
+    '@typescript-eslint/no-unused-vars': Severity.Off,
+    '@typescript-eslint/no-unused-vars-experimental': Severity.Error,
+    '@typescript-eslint/no-var-requires': Severity.Error,
+    '@typescript-eslint/prefer-for-of': Severity.Error,
+    '@typescript-eslint/prefer-includes': Severity.Warning,
+    '@typescript-eslint/prefer-nullish-coalescing': Severity.Warning,
+    '@typescript-eslint/prefer-optional-chain': Severity.Warning,
+    '@typescript-eslint/prefer-readonly': Severity.Warning,
+    '@typescript-eslint/prefer-string-starts-ends-with': Severity.Warning,
+    '@typescript-eslint/prefer-ts-expect-error': Severity.Warning,
+    '@typescript-eslint/triple-slash-reference': Severity.Error,
+    '@typescript-eslint/type-annotation-spacing': Severity.Error,
+    '@typescript-eslint/unified-signatures': Severity.Warning,
 }
