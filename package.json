@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/eslint-config",
   "description": "Shared ESLint config for TypeScript projects.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
