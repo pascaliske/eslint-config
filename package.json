@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/eslint-config",
   "description": "Shared ESLint config for TypeScript projects.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -39,7 +39,7 @@
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0"
+    "eslint-config-prettier": "^6.12.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.11.0",
@@ -47,23 +47,23 @@
     "eslint": "^6.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@pascaliske/prettier-config": "^1.0.2",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@pascaliske/prettier-config": "^1.1.0",
     "@pascaliske/tsconfig": "^1.0.4",
-    "@types/node": "^14.0.12",
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0",
+    "@types/node": "^14.11.8",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
     "bump-cli": "^1.1.3",
-    "eslint": "^6.8.0",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.2.9",
-    "prettier": "^2.0.5",
-    "rollup": "^2.15.0",
+    "eslint": "^7.11.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "rollup": "^2.29.0",
     "rollup-plugin-clear": "^2.0.7",
-    "rollup-plugin-terser": "^6.1.0",
-    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.27.3",
     "standard-changelog": "^2.0.24",
-    "typescript": "^3.9.5"
+    "typescript": "^4.0.3"
   }
 }

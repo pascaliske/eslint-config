@@ -48,4 +48,4 @@ For more information on environments visit the [ESLint documentation](https://es
 
 ## License
 
-MIT © 2020 [Pascal Iske](https://pascal-iske.de)
+MIT © 2020 [Pascal Iske](https://pascaliske.dev)

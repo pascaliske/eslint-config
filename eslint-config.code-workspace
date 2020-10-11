@@ -1,15 +1,25 @@
 {
-  "folders": [
-    {
-      "path": "."
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "cSpell.words": [
+            "backreference",
+            "builtins",
+            "camelcase",
+            "cond",
+            "eqeqeq",
+            "iife",
+            "isnan",
+            "linebreak"
+        ],
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "eslint.run": "onType",
+        "eslint.options": {
+            "configFile": "dist/index.js"
+        }
     }
-  ],
-  "settings": {
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "eslint.run": "onType",
-    "eslint.options": {
-      "configFile": "dist/index.js"
-    }
-  }
 }

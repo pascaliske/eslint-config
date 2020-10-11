@@ -1,7 +1,10 @@
-import rules from './rules'
+import { rules } from './rules'
 
 export default {
     parser: '@typescript-eslint/parser',
+    parserOptions: {
+        project: './tsconfig.json',
+    },
     plugins: ['@typescript-eslint'],
     extends: [
         'eslint:recommended',
