@@ -2,7 +2,6 @@ import clear from 'rollup-plugin-clear'
 import typescript from 'rollup-plugin-typescript2'
 import { terser } from 'rollup-plugin-terser'
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default () => ({
     input: 'src/index.ts',
     output: [
@@ -23,7 +22,10 @@ export default () => ({
                 exclude: ['rollup.config.ts'],
             },
         }),
-        terser(),
+        terser({
+            mangle: true,
+            format: { comments: false },
+        }),
     ],
     watch: {
         clearScreen: false,
