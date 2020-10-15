@@ -345,4 +345,21 @@ export const typescript: Record<string, Options> = {
 /**
  * Angular Rules
  */
-export const angular: Record<string, Options> = {}
+export const angular: Record<string, Options> = {
+    '@angular-eslint/directive-selector': [
+        Severity.Error,
+        {
+            type: 'attribute',
+            prefix: '',
+            style: 'kebab-case',
+        },
+    ],
+    '@angular-eslint/component-selector': [
+        Severity.Error,
+        {
+            type: 'element',
+            prefix: 'cmp',
+            style: 'kebab-case',
+        },
+    ],
+}
