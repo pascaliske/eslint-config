@@ -1,3 +1,25 @@
+# [2.0.0](https://github.com/pascaliske/eslint-config/compare/v1.1.1...v2.0.0) (2020-10-15)
+
+
+### Bug Fixes
+
+* **rules:** disable unused typescript-eslint rules ([7dcd186](https://github.com/pascaliske/eslint-config/commit/7dcd186162768d61985e709948f06322b6668af9))
+
+
+### Features
+
+* **rules:** add angular specific eslint rules ([edcd4e6](https://github.com/pascaliske/eslint-config/commit/edcd4e6e9103f4c826a347ab0436f6f796c56463))
+* split into seperate configs targeted to different project styles ([935597d](https://github.com/pascaliske/eslint-config/commit/935597d3f40fd872977bd079a7113c5251883938))
+
+
+### BREAKING CHANGES
+
+* All rules are now splitted into seperate configurations: `base`, `typescript` and `angular`.
+After upgrading you will need to add the `typescript` suffix to persist typescript specific rules!
+See the [README.md](README.md) for more information.
+
+
+
 ## [1.1.1](https://github.com/pascaliske/eslint-config/compare/v1.1.0...v1.1.1) (2020-10-11)
 
 
