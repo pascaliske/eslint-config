@@ -17,9 +17,6 @@
         ],
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
-        "eslint.run": "onType",
-        "eslint.options": {
-            "configFile": "dist/index.js"
-        }
+        "eslint.validate": ["javascript", "typescript"]
     }
 }

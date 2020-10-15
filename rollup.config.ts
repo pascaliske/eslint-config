@@ -1,7 +1,6 @@
 import clear from 'rollup-plugin-clear'
 import typescript from 'rollup-plugin-typescript2'
 import { terser } from 'rollup-plugin-terser'
-import { main } from './package.json'
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default () => ({
@@ -9,8 +8,7 @@ export default () => ({
     output: [
         {
             format: 'cjs',
-            exports: 'default',
-            file: main,
+            file: 'dist/index.js',
         },
     ],
     plugins: [

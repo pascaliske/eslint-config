@@ -18,7 +18,7 @@ type Options<T = any> =
     | [Severity, string, Record<string, T>]
 
 /**
- * Rules
+ * Base Rules
  */
 export const rules: Record<string, Options> = {
     /**
@@ -260,7 +260,12 @@ export const rules: Record<string, Options> = {
     'rest-spread-spacing': Severity.Error,
     'symbol-description': Severity.Error,
     'template-curly-spacing': Severity.Error,
+}
 
+/**
+ * TypeScript Rules
+ */
+export const typescript: Record<string, Options> = {
     /**
      * TypeScript Specifics
      * @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
@@ -329,3 +334,8 @@ export const rules: Record<string, Options> = {
     '@typescript-eslint/type-annotation-spacing': Severity.Error,
     '@typescript-eslint/unified-signatures': Severity.Warning,
 }
+
+/**
+ * Angular Rules
+ */
+export const angular: Record<string, Options> = {}
