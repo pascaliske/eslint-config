@@ -5,5 +5,5 @@
     "sourceMap": false,
     "lib": ["esnext"]
   },
-  "include": ["src/index.ts"]
+  "include": ["src/**/*.ts"]
 }

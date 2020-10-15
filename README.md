@@ -7,24 +7,31 @@
 To install the config use the following command:
 
 ```bash
-$ yarn add @pascaliske/eslint-config --dev
+yarn add @pascaliske/eslint-config --dev
 ```
 
-You also need the following peer dependencies:
+For TypeScript projects you will also need the following peer dependencies:
 
 ```bash
-$ yarn add eslint @typescript-eslint/{parser,eslint-plugin} --dev
+yarn add eslint @typescript-eslint/{parser,eslint-plugin} --dev
+```
+
+For Angular projects you will also need the following peer dependencies:
+
+```bash
+yarn add eslint @typescript-eslint/{parser,eslint-plugin} @angular-eslint/{template-parser,eslint-plugin,eslint-plugin-template} --dev
 ```
 
 ## Usage
 
-After installation you can reference the shared config using the following code in your `.eslintrc` file:
+There are three possible types of configurations available: `base` (only JS), `typescript` (JS + TS) and `angular` (JS + TS + Angular specifics). You can reference those by adding a suffix to the extends value in your config file (e.g. `@pascaliske/eslint-config/angular`). The `base` configuration will be used as default when the suffix is missing.
 
 `.eslintrc`
 
 ```json
 {
-  "extends": "@pascaliske/eslint-config",
+  "root": true,
+  "extends": "@pascaliske/eslint-config/base", // or typescript / angular
   "env": {
     "browser": true
   }
@@ -37,10 +44,29 @@ For usage in Node.js projects you can also enable the Node.js environment instea
 
 ```json
 {
-  "extends": "@pascaliske/eslint-config",
+  "root": true,
+  "extends": "@pascaliske/eslint-config/base", // or typescript / angular
   "env": {
     "node": true
   }
+}
+```
+
+For usage in TypeScript and Angular projects you have to use a JS based config file and explicitly set parser options with a `tsconfig.json`-file:
+
+`.eslintrc.js`
+
+```js
+module.exports = {
+    root: true,
+    extends: "@pascaliske/eslint-config/typescript", // or angular
+    parserOptions: {
+        project: `${__dirname}/tsconfig.json`,
+        createDefaultProgram: true,
+    },
+    env: {
+        node: true,
+    },
 }
 ```
 

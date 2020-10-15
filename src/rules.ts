@@ -18,7 +18,7 @@ type Options<T = any> =
     | [Severity, string, Record<string, T>]
 
 /**
- * Rules
+ * Base Rules
  */
 export const rules: Record<string, Options> = {
     /**
@@ -260,7 +260,12 @@ export const rules: Record<string, Options> = {
     'rest-spread-spacing': Severity.Error,
     'symbol-description': Severity.Error,
     'template-curly-spacing': Severity.Error,
+}
 
+/**
+ * TypeScript Rules
+ */
+export const typescript: Record<string, Options> = {
     /**
      * TypeScript Specifics
      * @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
@@ -315,6 +320,10 @@ export const rules: Record<string, Options> = {
     '@typescript-eslint/no-throw-literal': Severity.Error,
     '@typescript-eslint/no-unnecessary-type-arguments': Severity.Error,
     '@typescript-eslint/no-unnecessary-type-assertion': Severity.Error,
+    '@typescript-eslint/no-unsafe-assignment': Severity.Off,
+    '@typescript-eslint/no-unsafe-call': Severity.Off,
+    '@typescript-eslint/no-unsafe-member-access': Severity.Off,
+    '@typescript-eslint/no-unsafe-return': Severity.Off,
     '@typescript-eslint/no-unused-vars': Severity.Off,
     '@typescript-eslint/no-unused-vars-experimental': Severity.Error,
     '@typescript-eslint/no-var-requires': Severity.Error,
@@ -325,7 +334,32 @@ export const rules: Record<string, Options> = {
     '@typescript-eslint/prefer-readonly': Severity.Warning,
     '@typescript-eslint/prefer-string-starts-ends-with': Severity.Warning,
     '@typescript-eslint/prefer-ts-expect-error': Severity.Warning,
+    '@typescript-eslint/restrict-plus-operands': Severity.Off,
+    '@typescript-eslint/restrict-template-expressions': Severity.Off,
     '@typescript-eslint/triple-slash-reference': Severity.Error,
     '@typescript-eslint/type-annotation-spacing': Severity.Error,
     '@typescript-eslint/unified-signatures': Severity.Warning,
+    '@typescript-eslint/unbound-method': Severity.Off,
+}
+
+/**
+ * Angular Rules
+ */
+export const angular: Record<string, Options> = {
+    '@angular-eslint/directive-selector': [
+        Severity.Error,
+        {
+            type: 'attribute',
+            prefix: '',
+            style: 'kebab-case',
+        },
+    ],
+    '@angular-eslint/component-selector': [
+        Severity.Error,
+        {
+            type: 'element',
+            prefix: 'cmp',
+            style: 'kebab-case',
+        },
+    ],
 }
