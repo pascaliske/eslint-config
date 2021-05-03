@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/pascaliske/eslint-config/compare/v2.0.0...v2.0.1) (2021-05-03)
+
+
+### Bug Fixes
+
+* use merged prettier config ([678412c](https://github.com/pascaliske/eslint-config/commit/678412cd964f7b7e9d0c8f347293b1ac18ab16c0))
+
+
+
 # [2.0.0](https://github.com/pascaliske/eslint-config/compare/v1.1.1...v2.0.0) (2020-10-15)
 
 
