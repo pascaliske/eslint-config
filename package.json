@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/eslint-config",
   "description": "Shared ESLint config for TypeScript projects.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
@@ -30,6 +30,7 @@
     "node": ">=8"
   },
   "scripts": {
+    "prepare": "husky install",
     "build": "rollup --config rollup.config.ts",
     "watch": "rollup --config rollup.config.ts --watch",
     "test": "eslint --config .eslintrc.js src/**/*.ts",
@@ -39,31 +40,31 @@
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
-    "eslint-config-prettier": "^6.12.0"
+    "eslint-config-prettier": "^8.3.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
-    "eslint": "^7.11.0"
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.25.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@pascaliske/prettier-config": "^1.1.0",
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@pascaliske/prettier-config": "^1.1.1",
     "@pascaliske/tsconfig": "^1.0.4",
-    "@types/node": "^14.11.8",
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
+    "@types/node": "^15.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
     "bump-cli": "^1.1.3",
-    "eslint": "^7.11.0",
-    "husky": "^4.3.0",
-    "lint-staged": "^10.4.0",
-    "prettier": "^2.1.2",
-    "rollup": "^2.30.0",
+    "eslint": "^7.25.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "prettier": "^2.2.1",
+    "rollup": "^2.46.0",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.27.3",
-    "standard-changelog": "^2.0.24",
-    "typescript": "^4.0.3"
+    "rollup-plugin-typescript2": "^0.30.0",
+    "standard-changelog": "^2.0.27",
+    "typescript": "^4.2.4"
   }
 }
