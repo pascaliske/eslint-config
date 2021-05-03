@@ -1,6 +1,6 @@
 # Shared [ESLint config](src/rules.ts)
 
-[![Build Status](https://travis-ci.com/pascaliske/eslint-config.svg?branch=master)](https://travis-ci.com/pascaliske/eslint-config) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/eslint-config)](https://dependabot.com)
+[![Build Status](https://img.shields.io/github/workflow/status/pascaliske/eslint-config/Test%20package/master?label=test&style=flat-square)](https://github.com/pascaliske/eslint-config/actions) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/eslint-config)](https://dependabot.com)
 
 ## Installation
 
