@@ -30,6 +30,7 @@
     "node": ">=8"
   },
   "scripts": {
+    "prepare": "husky install",
     "build": "rollup --config rollup.config.ts",
     "watch": "rollup --config rollup.config.ts --watch",
     "test": "eslint --config .eslintrc.js src/**/*.ts",
