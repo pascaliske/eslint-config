@@ -7,7 +7,6 @@ export default {
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         'plugin:@angular-eslint/recommended',
         'prettier',
-        'prettier/@typescript-eslint',
     ],
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint', '@angular-eslint'],

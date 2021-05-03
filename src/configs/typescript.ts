@@ -2,12 +2,7 @@ import { rules, typescript } from '../rules'
 
 export default {
     parser: '@typescript-eslint/parser',
-    extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended',
-        'prettier',
-        'prettier/@typescript-eslint',
-    ],
+    extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
     plugins: ['@typescript-eslint'],
     rules: { ...rules, ...typescript },
 }
