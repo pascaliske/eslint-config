@@ -24,6 +24,5 @@ jobs:
 
       # publish
       - run: yarn publish
-        working-directory: dist/ngx-sentry
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
