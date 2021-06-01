@@ -44,7 +44,7 @@
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
+    "@typescript-eslint/parser": "^4.26.0",
     "eslint": "^7.27.0"
   },
   "devDependencies": {
@@ -55,7 +55,7 @@
     "@rstacruz/bump-cli": "^2.0.0",
     "@types/node": "^15.6.1",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
+    "@typescript-eslint/parser": "^4.26.0",
     "eslint": "^7.27.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
