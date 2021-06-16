@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/pascaliske/eslint-config/compare/v2.0.3...v2.0.4) (2021-06-16)
+
+
+### Bug Fixes
+
+* **rules:** switch to typescript specific rule for overload support ([8c0ae27](https://github.com/pascaliske/eslint-config/commit/8c0ae27eae83410219fa70490cf284db1854d732))
+
+
+
 ## [2.0.3](https://github.com/pascaliske/eslint-config/compare/v2.0.2...v2.0.3) (2021-05-25)
 
 
