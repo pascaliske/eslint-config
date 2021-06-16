@@ -267,6 +267,11 @@ export const rules: Record<string, Options> = {
  */
 export const typescript: Record<string, Options> = {
     /**
+     * Disabled ESLint basic rules.
+     */
+    'no-dupe-class-members': Severity.Off,
+
+    /**
      * TypeScript Specifics
      * @see https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin
      */
@@ -308,6 +313,7 @@ export const typescript: Record<string, Options> = {
     ],
     '@typescript-eslint/method-signature-style': Severity.Error,
     '@typescript-eslint/no-duplicate-imports': Severity.Error,
+    '@typescript-eslint/no-dupe-class-members': Severity.Error,
     '@typescript-eslint/no-empty-interface': Severity.Warning,
     '@typescript-eslint/no-explicit-any': Severity.Warning,
     '@typescript-eslint/no-extra-non-null-assertion': Severity.Error,
