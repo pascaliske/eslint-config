@@ -53,7 +53,7 @@
     "@pascaliske/prettier-config": "^1.1.2",
     "@pascaliske/tsconfig": "^1.0.6",
     "@rstacruz/bump-cli": "^2.0.0",
-    "@types/node": "^15.14.2",
+    "@types/node": "^16.10.1",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
     "eslint": "^7.30.0",
