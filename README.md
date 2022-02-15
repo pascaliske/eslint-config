@@ -1,6 +1,6 @@
 # Shared [ESLint config](src/rules.ts)
 
-[![Build Status](https://img.shields.io/github/workflow/status/pascaliske/eslint-config/Test%20package/master?label=test&style=flat-square)](https://github.com/pascaliske/eslint-config/actions) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=pascaliske/eslint-config)](https://dependabot.com)
+[![npm (scoped)](https://img.shields.io/npm/v/@pascaliske/eslint-config.svg?style=flat-square)](https://www.npmjs.com/package/@pascaliske/eslint-config) [![GitHub Tag](https://img.shields.io/github/tag/pascaliske/eslint-config.svg?style=flat-square)](https://github.com/pascaliske/eslint-config) [![Build Status](https://img.shields.io/github/workflow/status/pascaliske/eslint-config/Test%20package/master?label=test&style=flat-square)](https://github.com/pascaliske/eslint-config/actions) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![GitHub Last Commit](https://img.shields.io/github/last-commit/pascaliske/eslint-config?style=flat-square)](https://github.com/pascaliske/eslint-config) [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg?style=flat-square)](https://github.com/Naereen/badges)
 
 ## Installation
 
@@ -74,4 +74,4 @@ For more information on environments visit the [ESLint documentation](https://es
 
 ## License
 
-MIT © 2021 [Pascal Iske](https://pascaliske.dev)
+MIT © 2022 [Pascal Iske](https://pascaliske.dev)
