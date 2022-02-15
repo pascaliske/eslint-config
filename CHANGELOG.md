@@ -1,3 +1,12 @@
+## [2.0.6](https://github.com/pascaliske/eslint-config/compare/v2.0.5...v2.0.6) (2022-02-15)
+
+
+### Bug Fixes
+
+* **angular:** include all typescript files in angular template processor ([982ae14](https://github.com/pascaliske/eslint-config/commit/982ae141fd8b2b4ad09be41dc0a922d81ad2107d))
+
+
+
 ## [2.0.5](https://github.com/pascaliske/eslint-config/compare/v2.0.4...v2.0.5) (2021-10-26)
 
 
