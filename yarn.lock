@@ -242,10 +242,10 @@
   resolved "https://registry.yarnpkg.com/@pascaliske/prettier-config/-/prettier-config-1.1.4.tgz#97482fe58ef75214ce9ca69da01cde8e6e9d6f88"
   integrity sha512-eYhtCyE0EoI76RvqGT0CzcmfV1SJw+AJtpsBDsY4JSX9/Xbuy4ef4h3VSTBsgQjjXoNoNzqesnslUUleDeI+LA==
 
-"@pascaliske/tsconfig@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@pascaliske/tsconfig/-/tsconfig-1.0.6.tgz#9a4a99f6ee44b5df548e6b9da4a69aa0278743b2"
-  integrity sha512-zkHui7NyprhAaaQWRppWXxQfkIFZu+WyhQYlQt9W95ganFyUWCJdaXHNhInmy5NkuD3hoRukGiFLRVxyFHJrKg==
+"@pascaliske/tsconfig@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@pascaliske/tsconfig/-/tsconfig-1.0.7.tgz#6907eb10013789bf4530add50cf893469c486625"
+  integrity sha512-WbLS+41JozjFfOiQVbqK6dtFgVj+WvVZAIH+m9PVo5JnETdQevJYuKnFDlmVniUX8eBcOPezhIQLooy378DGaQ==
 
 "@rollup/pluginutils@^4.1.2":
   version "4.1.2"
@@ -306,7 +306,12 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
 
-"@types/node@*", "@types/node@>=12", "@types/node@^17.0.18":
+"@types/node@*":
+  version "17.0.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.17.tgz#a8ddf6e0c2341718d74ee3dc413a13a042c45a0c"
+  integrity sha512-e8PUNQy1HgJGV3iU/Bp2+D/DXh3PYeyli8LgIwsQcs1Ar1LoaWHSIT6Rw+H2rNJmiq6SNWiDytfx8+gYj7wDHw==
+
+"@types/node@>=12", "@types/node@^17.0.18":
   version "17.0.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.18.tgz#3b4fed5cfb58010e3a2be4b6e74615e4847f1074"
   integrity sha512-eKj4f/BsN/qcculZiRSujogjvp5O/k4lOW5m35NopjZM/QwLOR075a8pJW5hD+Rtdm2DaCVPENS6KtSQnUD6BA==
@@ -981,7 +986,12 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.3.0:
+eslint-visitor-keys@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.2.0.tgz#6fbb166a6798ee5991358bc2daa1ba76cc1254a1"
+  integrity sha512-IOzT0X126zn7ALX0dwFiUQEdsfzrm4+ISsQS8nukaJXwEyYKRSnEIIDULYg1mCtGp7UUXgfGl7BIolXREQK+XQ==
+
+eslint-visitor-keys@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
