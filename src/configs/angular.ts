@@ -14,7 +14,7 @@ export default {
     reportUnusedDisableDirectives: true,
     overrides: [
         {
-            files: ['*.component.ts'],
+            files: ['*.ts'],
             extends: ['plugin:@angular-eslint/template/process-inline-templates'],
         },
     ],
