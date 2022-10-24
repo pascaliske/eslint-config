@@ -54,7 +54,7 @@
     "@pascaliske/tsconfig": "^1.0.7",
     "@rstacruz/bump-cli": "^2.0.1",
     "@types/node": "^18.11.4",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
     "@typescript-eslint/parser": "^5.41.0",
     "eslint": "^8.26.0",
     "husky": "^8.0.1",
