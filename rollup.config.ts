@@ -16,7 +16,6 @@ export default () => ({
             watch: true,
         }),
         typescript({
-            typescript: require('typescript'),
             useTsconfigDeclarationDir: true,
             tsconfigOverride: {
                 exclude: ['rollup.config.ts'],
