@@ -1,7 +1,7 @@
 /**
  * Severity
  */
-const enum Severity {
+export const enum Severity {
     Off,
     Warning,
     Error,
@@ -281,12 +281,7 @@ export const typescript: Record<string, Options> = {
     '@typescript-eslint/ban-ts-comment': Severity.Error,
     '@typescript-eslint/ban-tslint-comment': Severity.Error,
     '@typescript-eslint/consistent-type-assertions': Severity.Error,
-    '@typescript-eslint/explicit-function-return-type': [
-        Severity.Warning,
-        {
-            allowExpressions: true,
-        },
-    ],
+    '@typescript-eslint/explicit-function-return-type': Severity.Off,
     '@typescript-eslint/explicit-member-accessibility': Severity.Error,
     '@typescript-eslint/explicit-module-boundary-types': Severity.Off,
     '@typescript-eslint/member-ordering': [
