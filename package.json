@@ -36,7 +36,9 @@
     "test": "eslint --config .eslintrc.js src/**/*.ts",
     "format": "prettier --write \"**/*.{ts,md,json}\"",
     "version": "bump --yes package.json",
-    "changelog": "standard-changelog"
+    "changelog": "standard-changelog",
+    "link": "yarn run build && yarn link",
+    "unlink": "yarn unlink"
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
