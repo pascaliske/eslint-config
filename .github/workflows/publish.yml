@@ -11,19 +11,27 @@ jobs:
       # checkout
       - uses: actions/checkout@v3
 
-      # prepare
+      # setup node
       - uses: actions/setup-node@v3.5.1
         with:
           node-version: '16'
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn install --frozen-lockfile
+
+      # install dependencies
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      # build
+      - name: Build package
+        run: yarn run build
 
       # test
-      - run: yarn run build
-      - run: yarn run test
+      - name: Run tests
+        run: yarn run test
 
       # publish
-      - run: yarn publish
+      - name: Publish package
+        run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
