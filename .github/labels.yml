@@ -5,7 +5,7 @@
   color: '0366d6'
   description: Dependency related things
 - name: documentation
-  color: '7057ff '
+  color: '7057ff'
   description: Improvements or additions to documentation
 - name: duplicate
   color: 'cfd3d7'
