@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "^17.2.0",
     "@pascaliske/prettier-config": "^1.2.0",
     "@pascaliske/tsconfig": "^1.0.7",
-    "@rollup/plugin-typescript": "^9.0.2",
+    "@rollup/plugin-typescript": "^10.0.0",
     "@rstacruz/bump-cli": "^2.0.1",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
