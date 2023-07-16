@@ -1,3 +1,13 @@
+## [2.0.7](https://github.com/pascaliske/eslint-config/compare/v2.0.6...v2.0.7) (2023-07-16)
+
+
+### Bug Fixes
+
+* move typescript specific rule to global overrides ([ca92839](https://github.com/pascaliske/eslint-config/commit/ca92839f5e0e01a30feb680306907a82fa53b2a3))
+* remove deprecated duplicate import rule ([3c455ee](https://github.com/pascaliske/eslint-config/commit/3c455ee368c5b47d14282abaad72a8d1dc2a0085))
+
+
+
 ## [2.0.6](https://github.com/pascaliske/eslint-config/compare/v2.0.5...v2.0.6) (2022-02-15)
 
 
