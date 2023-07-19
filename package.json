@@ -42,7 +42,7 @@
   },
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
-    "eslint-config-prettier": "^8.5.0"
+    "eslint-config-prettier": "^8.8.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -50,24 +50,24 @@
     "eslint": "^8.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.2.0",
-    "@commitlint/config-conventional": "^17.2.0",
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "@pascaliske/prettier-config": "^1.2.0",
     "@pascaliske/tsconfig": "^1.0.7",
-    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-typescript": "^11.1.2",
     "@rstacruz/bump-cli": "^2.0.1",
-    "@types/node": "^18.11.9",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.26.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
-    "rollup": "^3.0.0",
+    "rollup": "^3.26.3",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.35.0",
     "standard-changelog": "^3.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.1.6"
   }
 }
