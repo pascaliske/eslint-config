@@ -1,3 +1,7 @@
+# [3.0.0](https://github.com/pascaliske/eslint-config/compare/v2.0.7...v3.0.0) (2023-07-19)
+
+
+
 ## [2.0.7](https://github.com/pascaliske/eslint-config/compare/v2.0.6...v2.0.7) (2023-07-16)
 
 
