@@ -3,6 +3,7 @@
   "compilerOptions": {
     "declaration": false,
     "sourceMap": false,
+    "strictNullChecks": true,
     "lib": ["esnext"]
   },
   "include": ["src/**/*.ts"]
