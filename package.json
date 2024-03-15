@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "^19.0.0",
     "@pascaliske/prettier-config": "^1.2.0",
     "@pascaliske/tsconfig": "^1.0.7",
-    "@rollup/plugin-terser": "^0.1.0",
+    "@rollup/plugin-terser": "^0.4.0",
     "@rollup/plugin-typescript": "^11.1.2",
     "@rstacruz/bump-cli": "^2.0.1",
     "@types/node": "^20.4.2",
