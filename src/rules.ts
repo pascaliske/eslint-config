@@ -336,7 +336,6 @@ export const typescript: Record<string, Options> = {
     '@typescript-eslint/restrict-plus-operands': Severity.Off,
     '@typescript-eslint/restrict-template-expressions': Severity.Off,
     '@typescript-eslint/triple-slash-reference': Severity.Error,
-    '@typescript-eslint/type-annotation-spacing': Severity.Error,
     '@typescript-eslint/unified-signatures': Severity.Warning,
     '@typescript-eslint/unbound-method': Severity.Off,
 }
