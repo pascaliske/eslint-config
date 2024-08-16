@@ -1,3 +1,14 @@
+## [3.0.1](https://github.com/pascaliske/eslint-config/compare/v3.0.0...v3.0.1) (2024-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v9 ([94f6cf7](https://github.com/pascaliske/eslint-config/commit/94f6cf7c3a6f99cbe48663dca0f477ac5239b566))
+* **typescript:** migrate to renamed rule @typescript-eslint/only-throw-error ([a4b18c1](https://github.com/pascaliske/eslint-config/commit/a4b18c1b7c6397281216834d365dded4414018f6))
+* **typescript:** remove deprecated rule @typescript-eslint/type-annotation-spacing ([c4e5285](https://github.com/pascaliske/eslint-config/commit/c4e52859e290acc449dbe6c6ed33cbf78dcfe01e))
+
+
+
 # [3.0.0](https://github.com/pascaliske/eslint-config/compare/v2.0.7...v3.0.0) (2023-07-19)
 
 
