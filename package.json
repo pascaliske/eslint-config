@@ -40,6 +40,7 @@
     "link": "yarn run build && yarn link",
     "unlink": "yarn unlink"
   },
+  "packageManager": "yarn@1.22.22",
   "prettier": "@pascaliske/prettier-config",
   "dependencies": {
     "eslint-config-prettier": "^9.0.0"
