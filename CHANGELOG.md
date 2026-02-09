@@ -1,3 +1,12 @@
+# [3.1.0](https://github.com/pascaliske/eslint-config/compare/v3.0.1...v3.1.0) (2026-02-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v10 ([e041ad3](https://github.com/pascaliske/eslint-config/commit/e041ad3))
+
+
+
 ## [3.0.1](https://github.com/pascaliske/eslint-config/compare/v3.0.0...v3.0.1) (2024-08-16)
 
 
